@@ -69,7 +69,7 @@ Parameters:
 # More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
 Globals:
   Function:
-    Runtime: nodejs8.10
+    Runtime: nodejs12.x
     Environment:
       Variables:
         STAGE: !Ref Stage
